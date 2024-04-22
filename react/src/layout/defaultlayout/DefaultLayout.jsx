@@ -1,8 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 import { Link, Navigate, Outlet } from "react-router-dom";
-import axiosClient from "../axios-client";
-import { useStateContext } from "../contexts/ContextProvider";
+import axiosClient from "../../axios-client";
+import { useStateContext } from "../../contexts/ContextProvider";
 
 export default function DefaultLayout() {
     const { user, token, setUser, setToken } = useStateContext();
@@ -28,7 +28,7 @@ export default function DefaultLayout() {
         <div id="defaultLayout">
             <aside>
                 <Link to="/dashboard">Dashboard</Link>
-                <Link to="/users">Users</Link>
+                <Link to="/result">Result</Link>
             </aside>
             <div className="content">
                 <header>

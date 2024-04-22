@@ -1,11 +1,16 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
-import DefaultLayout from "./layout/DefaultLayout";
-import GuestLayout from "./layout/GuestLayout";
-import Dashboard from "./views/Dashboard";
-import Login from "./views/Login";
-import NotFound from "./views/NotFound";
-import Signup from "./views/Signup";
-import Users from "./views/Users";
+import DefaultLayout from "./layout/defaultlayout/DefaultLayout";
+import GuestLayout from "./layout/guestlayout/GuestLayout";
+import Board from "./containers/board/Board";
+import Board from "./containers/signup/Signup";
+import Login from "./containers/login/Login";
+import NotFound from "./display/notfound/NotFound";
+import NotFound from "./display/result/Result";
+import Board from "./Exam";
+import Board from "./App";
+import Board from "./containers/board";
+import Board from "./containers/library/Library";
+import Board from "./containers/whatissepp/Whatsepp";
 
 const router = createBrowserRouter([
     {
@@ -14,15 +19,15 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Navigate to="/dashboard" />,
+                element: <Navigate to="/board" />,
             },
             {
-                path: "/dashboard",
-                element: <Dashboard />,
+                path: "/board",
+                element: <Board />,
             },
             {
-                path: "/users",
-                element: <Users />,
+                path: "/Result",
+                element: <Result />,
             },
             {
                 path: "/exam/1",
