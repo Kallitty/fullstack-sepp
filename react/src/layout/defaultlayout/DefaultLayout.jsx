@@ -27,7 +27,7 @@ export default function DefaultLayout() {
     return (
         <div id="defaultLayout">
             <aside>
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/board">Dashboard</Link>
                 <Link to="/result">Result</Link>
             </aside>
             <div className="content">

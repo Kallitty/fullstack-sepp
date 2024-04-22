@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./sidebar.scss";
 import {
     BiBookAlt,
@@ -21,7 +22,7 @@ const Sidebar = () => {
                     <h3>My SEPP</h3>
                 </div>
 
-                <div className="sepp__sidebar-left-menu--list">
+                <aside className="sepp__sidebar-left-menu--list">
                     <Link to="/dashboard" className="sepp__sidebar-left__items">
                         <BiHome className="sepp__sidebar-left__icon" />
                         Dashboard
@@ -55,7 +56,7 @@ const Sidebar = () => {
                         <DiAptana className="sepp__sidebar-left__icon" />
                         Settings
                     </a>
-                </div>
+                </aside>
             </div>
             <a href="#" className="sepp__sidebar-left__logout">
                 <BiLogOut className="sepp__sidebar-left__logouticon" />
