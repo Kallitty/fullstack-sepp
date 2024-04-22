@@ -1,16 +1,16 @@
 .sepp__board {
-  display: flex;
-  padding: 2rem;
-  gap: 20px;
+    display: flex;
+    padding: 2rem;
+    gap: 20px;
 }
 .sepp__board--content {
-  background: #ffff;
-  flex: 1;
-  border-radius: 20px;
-  padding: 2rem;
-  display: flex;
-  gap: 1.5rem;
-  justify-content: space-between;
+    background: #ffff;
+    flex: 1;
+    border-radius: 20px;
+    // padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
 }
 
 // /* Base styles */

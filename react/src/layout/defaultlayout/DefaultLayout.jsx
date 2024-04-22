@@ -1,7 +1,9 @@
 import React from "react";
+import "./defaultlayout.scss";
 import { useEffect } from "react";
 import { Link, Navigate, Outlet } from "react-router-dom";
 import axiosClient from "../../axios-client";
+import { Sidebar } from "../../components";
 import { useStateContext } from "../../contexts/ContextProvider";
 
 export default function DefaultLayout() {
@@ -27,14 +29,12 @@ export default function DefaultLayout() {
     return (
         <div id="defaultLayout">
             <aside>
-                <Link to="/board">Dashboard</Link>
-                <Link to="/result">Result</Link>
+                <Sidebar />
             </aside>
             <div className="content">
                 <header>
-                    <div>Header</div>
+                    <div>Hello {user.name}!</div>
                     <div>
-                        {user.name}
                         <a href="#" onClick={onLogout} className="btn-logout">
                             Logout
                         </a>

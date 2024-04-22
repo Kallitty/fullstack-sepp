@@ -23,39 +23,34 @@ const Sidebar = () => {
                 </div>
 
                 <aside className="sepp__sidebar-left-menu--list">
-                    <Link to="/dashboard" className="sepp__sidebar-left__items">
+                    <Link to="/board" className="sepp__sidebar-left__items">
                         <BiHome className="sepp__sidebar-left__icon" />
                         Dashboard
                     </Link>
-
-                    <a href="#" className="sepp__sidebar-left__items">
-                        <BiHome className="sepp__sidebar-left__icon" />
-                        Dashboard
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    <Link to="/result" className="sepp__sidebar-left__items">
                         <BiSolidReport className="sepp__sidebar-left__icon" />
                         Results
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    </Link>
+                    <Link to="#" className="sepp__sidebar-left__items">
                         <BiFolder className="sepp__sidebar-left__icon" />
                         Report card
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    </Link>
+                    <Link href="#" className="sepp__sidebar-left__items">
                         <BiStats className="sepp__sidebar-left__icon" />
                         Stats
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    </Link>
+                    <Link href="#" className="sepp__sidebar-left__items">
                         <BiMessage className="sepp__sidebar-left__icon" />
                         Message
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    </Link>
+                    <Link href="#" className="sepp__sidebar-left__items">
                         <BiTask className="sepp__sidebar-left__icon" />
                         Help
-                    </a>
-                    <a href="#" className="sepp__sidebar-left__items">
+                    </Link>
+                    <Link href="#" className="sepp__sidebar-left__items">
                         <DiAptana className="sepp__sidebar-left__icon" />
                         Settings
-                    </a>
+                    </Link>
                 </aside>
             </div>
             <a href="#" className="sepp__sidebar-left__logout">
