@@ -1,0 +1,85 @@
+.sepp__profile {
+  flex: 1;
+}
+.sepp__profile-user--profile {
+  height: 85%;
+  margin-top: 2rem;
+  background: #eadded;
+  // border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.sepp__profile-user--detail {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sepp__profile-user--detail img {
+  background: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 125px;
+}
+
+.sepp__profile-user--detail .sepp__profile-username {
+  font-weight: 600;
+  color: #470647;
+  margin-top: -3px;
+}
+.sepp__profile-category {
+  color: #470647;
+  margin-top: -10px;
+}
+
+//other segment
+.sepp__profile-quizes {
+  background: #fff;
+}
+.sepp__profile-quiz__quiz {
+  background: #eadded;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.sepp__profile-quiz--detail {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.sepp__profile-quiz--icon {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.sepp__profile-quiz--title .sepp__profile-quiz--duration {
+  font-size: 10px;
+}
+.sepp__profile-quiz--title .sepp__profile-quiz--action {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.sepp__profile-quiz--name {
+}
+.sepp__profile-quiz--title {
+  color: #470647;
+}
+.sepp__profile-quiz--duration {
+  color: #470647;
+}
+.sepp__profile-quiz--action {
+  color: #470647;
+}
