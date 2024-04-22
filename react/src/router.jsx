@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         element: <GuestLayout />,
         children: [
             {
-                path: "/",
+                path: "/app",
                 element: <App />,
             },
             {
@@ -50,10 +50,7 @@ const router = createBrowserRouter([
                 path: "/wsepp",
                 element: <Whatsepp />,
             },
-            {
-                path: "/board",
-                element: <Board />,
-            },
+
             {
                 path: "/login",
                 element: <Login />,

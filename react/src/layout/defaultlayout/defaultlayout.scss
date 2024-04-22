@@ -1,10 +1,11 @@
 #defaultLayout {
     display: flex;
+    background-color: #ffff;
 }
 
 #defaultLayout aside {
     // width: 240px;
-    background-color: #835e87;
+    background-color: #844d725b;
     padding: 1rem;
 }
 
@@ -13,12 +14,13 @@
     padding: 0.75rem 1rem;
     // border-radius: 6px;
     color: white;
+
     // text-decoration: none;
     transition: all 0.2s;
 }
 
 #defaultLayout aside > a:hover {
-    background-color: rgba(0, 0, 0, 0.327);
+    // background-color: rgba(0, 0, 0, 0.327);
 }
 
 #defaultLayout .content {

@@ -22,7 +22,7 @@ const Sidebar = () => {
                     <h3>My SEPP</h3>
                 </div>
 
-                <aside className="sepp__sidebar-left-menu--list">
+                <div className="sepp__sidebar-left-menu--list">
                     <Link to="/board" className="sepp__sidebar-left__items">
                         <BiHome className="sepp__sidebar-left__icon" />
                         Dashboard
@@ -51,7 +51,7 @@ const Sidebar = () => {
                         <DiAptana className="sepp__sidebar-left__icon" />
                         Settings
                     </Link>
-                </aside>
+                </div>
             </div>
             <a href="#" className="sepp__sidebar-left__logout">
                 <BiLogOut className="sepp__sidebar-left__logouticon" />
