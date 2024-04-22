@@ -1,4 +1,4 @@
-he SEPP project, from its description, presents a fascinating challenge that blends the power of modern web technologies such as Laravel, JavaScript, and React to deliver a comprehensive and interactive platform for exam preparation. As a developer involved in the SEPP project, let's dive into how we leveraged these technologies to build a robust, user-friendly application tailored for professionals aiming to ace their exams.
+The SEPP project, from its description, presents a fascinating challenge that blends the power of modern web technologies such as Laravel, JavaScript, and React to deliver a comprehensive and interactive platform for exam preparation. As a developer involved in the SEPP project, let's dive into how we leveraged these technologies to build a robust, user-friendly application tailored for professionals aiming to ace their exams.
 
 Backend Development with Laravel
 <<<<<<< HEAD Laravel was chosen for the backend for its elegant syntax, robust features, and scalability, which are essential for a project like SEPP that demands reliability and a high degree of customization.
