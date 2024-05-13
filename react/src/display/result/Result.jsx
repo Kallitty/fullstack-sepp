@@ -1,11 +1,13 @@
+// Result.jsx
+
 import React, { useEffect, useState } from "react";
 import "./result.scss";
+import Quiz from "../../components/Quiz/Quiz";
 
 const Result = () => {
     const [scores, setScores] = useState([]);
 
     useEffect(() => {
-        // Retrieve scores from local storage
         const storedScores =
             JSON.parse(localStorage.getItem("quizScores")) || [];
         setScores(storedScores);
