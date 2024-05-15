@@ -3,7 +3,6 @@ import Quiz from "./components/Quiz/Quiz";
 import { jsQuizz } from "./records.json";
 import "./exam.scss";
 import { useNavigate } from "react-router-dom";
-import { ContextProvider } from "./contexts/ContextProvider"; // Import ContextProvider
 
 function Exam() {
     const [quizStarted, setQuizStarted] = useState(false);
@@ -19,7 +18,7 @@ function Exam() {
     };
 
     return (
-        <ContextProvider>
+        <div className="sepp__exam-skeleton">
             <div className="sepp__exam--body">
                 {!quizStarted ? (
                     <div className="sepp__exam-container">
@@ -42,7 +41,7 @@ function Exam() {
                     <Quiz questions={jsQuizz.questions} />
                 )}
             </div>
-        </ContextProvider>
+        </div>
     );
 }
 

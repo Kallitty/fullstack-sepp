@@ -85,7 +85,7 @@ const Quiz = ({ questions }) => {
     };
 
     const handleYesSubmit = () => {
-        onFinish();
+        onTimeUpCloseModal();
     };
 
     const handleNoCancel = () => {
@@ -96,10 +96,9 @@ const Quiz = ({ questions }) => {
         setCurrentQuestion((prev) => prev + 1);
     };
     const onFinish = () => {
-        setShowConfirmationModal(!showConfirmationModal);
-        // setShowConfirmationModal(true) thesame thing
+        // setShowConfirmationModal(!showConfirmationModal); thesame thing
+        setShowConfirmationModal(true);
         calculateResults();
-        setShowResult(true);
     };
 
     const onClickPrevious = () => {
